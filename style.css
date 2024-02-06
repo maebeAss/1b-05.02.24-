@@ -31,9 +31,10 @@ body {
 
 .main-footer {
     color: #06070E;
-    margin: auto;
-    padding: 1em;
+    margin: none;
+    padding: none;
     text-align: center;
+    align-items: center;
 }
 
 .logo {
@@ -48,6 +49,8 @@ body {
 .footer-content1 {
     color: #06070E;
     background: #fff;
+    margin-left: 22em;
+    padding: 0%;
 }
 
 .navigation-bar {
@@ -93,12 +96,13 @@ li a:hover {
 .text-block {
     background: #ececec;
     max-width: 75em;
-    padding: auto;
-    margin: auto;
+    padding: .1em;
+    padding-bottom: 1em;
+    margin: 1pc;
     border-radius: 32px;
     box-shadow: 8px;
     border-color: #06070E;
-    border: 1px solid #06070E
+    border: 1px solid #06070E;
 }
 
 .text-block-head {
@@ -107,4 +111,65 @@ li a:hover {
 
 .underground {
     background: #06070E;
+    min-width: 50em;
+    color: #ececec;
+    padding: none;
+    margin: auto;
+    float: center;
+}
+
+.underground-content {
+    background: #06070E;
+    min-width: 50em;
+    color: #ececec;
+    padding: none;
+    margin: auto;
+}
+
+.email-input {
+    outline: none;
+    border: 2px solid #518352;
+    border-radius: 8px;
+    box-shadow: 8px solid #111;
+    transition: 1s;
+}
+
+.email-input:hover {
+    outline: none;
+    border: 2px solid #7EB77F;
+    border-radius: 8px; 
+}
+
+.email-input:focus {
+    outline: none;
+    border: 2px solid lime;
+    box-shadow: 0 0 .8em lime;
+}
+
+.accept-button {
+    outline: none;
+    margin: none;
+    padding: none;
+    border: 2px solid #518352;
+    border-radius: 8px;
+    transition: 1s;
+    background: radial-gradient(#518352, #7EB77F);
+}
+
+.accept-button:hover {
+    outline: none;
+    border: 2px solid #7EB77F;
+    border-radius: 8px;
+    background: radial-gradient(#518352, lime);;
+    box-shadow: 0 0 .8em lime;
+    transition: 4s;
+}
+
+.accept-button:active {
+    outline: none;
+    border: 2px solid lime;
+    border-radius: 8px;
+    background: radial-gradient(lime, #518352);
+    box-shadow: 0 0 .8em lime;
+    transition: 4s;
 }
